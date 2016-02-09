@@ -1,0 +1,23 @@
+1.接口的非对称加密(是在拦截器的基础上的加强型防御....)
+
+2.事务回滚时,表的建立后不会回滚< 隐式提交 >
+---在新话题发布时候,如果出现错误,那个表格就不会再被利用,因为他没有插入话题总表(除了用户注册 其他以完成回滚) 
+
+3 拦截器(完成) 写在ViewModel 的基类构造函数里面,单入口
+	---校验 md5(imoment的token + 融云的token) 
+	---校验token 如果不对 会中止代码
+	---防御无效请求,请求攻击
+	---防御恶意注入
+	---防御恶意下载文件
+		-->拦截器不能用在登录的ViewModel  所以需要使用
+		class GetUserIdByEmailViewModel extends  viewModelBaseClass{
+
+			public function __construct($dbName){    
+			$parent='medoo_returnPDO'; //这里不要使用ViewModel基类 因为那时候还没有userId,token
+			
+			return $parent::__construct($dbName); //使用ViewModel的父类构造,这样就能跳过拦截器  
+			}
+		}
+	
+4.接口调用频率限制(已完成框架)
+	--

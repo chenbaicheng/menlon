@@ -1,0 +1,21 @@
+http://localhost/controller/ViewController/MessageManager/UserMessageManager/getMessageViewController.php?Type=2&userId=8_1&messageId=5
+
+http://localhost/controller/ViewController/MessageManager/UserMessageManager/transferMessageViewController.php?fromUserId=1_2&toUserId=1_2&messageId=2&Ualais=sss
+
+http://localhost/controller/ViewController/MessageManager/UserMessageManager/sentMessageViewController.php?Type=1&userId=1_1&messageId=1&ForUalais=sss&ForUserId=7_1&replyContent=%E6%98%AF4444466%E5%A4%9A%E5%B0%91&AtUserId=1_1&AtUserName=sss&dependReplyId=5
+
+http://www.jb51.net/article/29136.htm  
+
+http://localhost/controller/ViewController/MessageManager/UserMessageManager/sentMessageViewController.php?Type=0&userId=1_1&Tid=0&Mcontent=%E6%88%91%E7%A8%8D888%E7%AC%AC%E5%9B%9B%E8%AF%9D%E5%88%B0%E6%AD%BB%E6%B5%B7%E5%8D%8E%E4%B8%9D%E5%9C%B0&Mhttp=sssss.com&ImgeHeight=2&ImgeWidth=4&Type=0  
+
+http://localhost/controller/ViewController/UserManager/UserInformationManager/userRegisterController.php?type=submit&UPhone=111&Ualais=ssss&Upasswd=sssss&checkNum=111   
+
+
+http://localhost/controller/ViewController/MessageManager/UserMessageManager/sentMessageViewController.php?Type=1&userId=1_1&messageId=1&ForUalais=sss&ForUserId=7_1&replyContent=%E6%98%AF4444466%E5%A4%9A%E5%B0%91&AtUserId=1_1&AtUserName=sss&dependReplyId=5  
+
+//作业  
+ http://localhost/housework/index.html    
+ 
+ 
+ http://localhost/housework/admindm-yourname/mod_node/mod_node.php?lang=cn&catpid=cate20150805_1125344029&catid=&page=1  
+ 

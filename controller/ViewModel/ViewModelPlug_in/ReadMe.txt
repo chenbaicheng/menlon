@@ -1,0 +1,2 @@
+注意这里的文件是作为ViewModel的组件存在,需要在viewModel
+中使用  

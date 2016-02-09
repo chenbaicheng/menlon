@@ -1,0 +1,108 @@
+[/*评论数组 每个json对象 就是一条评论*/
+	{"replyId":"2",  /*删除回复 评论时候的定位标识 */
+	"userId":"8_1",/*发出帖子的用户id*/
+	"messageId":"1",/*帖子id*/
+	"ForUalais":"sss",/*评论用户昵称*/
+	"ForUserId":"2_1",/*评论用户id*/
+	"AtUserId":null,/*@用户的id*/
+	"AtUserName":null,/*@用户的昵称*/
+	"dependReplyId":null,/*父节点序号*/
+	"replyContent":"是多少多少度是多少", /*评论内容*/
+	"replyDateTime":"2015-12-11 10:19:50",/*评论时间*/
+	"childrenReply":[]/*评论的回复数组, 每个json对象 就是一条回复*/
+	},
+	{"replyId":"5",
+	"userId":"8_1",
+	"messageId":"1",
+	"ForUalais":"sss",
+	"ForUserId":"9_1",
+	"AtUserId":null,
+	"AtUserName":null,
+	"dependReplyId":null,
+	"replyContent":"是多少多少度是多少",
+	"replyDateTime":"2015-12-11 10:45:05",
+	"childrenReply":[
+					{"replyId":"12",
+					"userId":"8_1",
+					"messageId":"1",
+					"ForUalais":"sss",
+					"ForUserId":"8_1",
+					"AtUserId":"9_1",
+					"AtUserName":"sss",
+					"dependReplyId":"5",/*这里id 就是父节点id*/
+					"replyContent":"是多少多少度是多少",
+					"replyDateTime":"2015-12-11 11:25:43"
+					},
+					{"replyId":"13",
+					"userId":"8_1",
+					"messageId":"1",
+					"ForUalais":"sss",
+					"ForUserId":"9_1",
+					"AtUserId":"8_1",
+					"AtUserName":"sss",
+					"dependReplyId":"5",
+					"replyContent":"是多少多少度是多少",
+					"replyDateTime":"2015-12-12 12:40:10"
+					},
+					{"replyId":"14",
+					"userId":"8_1",
+					"messageId":"1",
+					"ForUalais":"sss",
+					"ForUserId":"9_1",
+					"AtUserId":"8_1",
+					"AtUserName":"sss",
+					"dependReplyId":"5",
+					"replyContent":"是多435345345是多少",
+					"replyDateTime":"2015-12-12 12:40:21"
+					}
+					]
+	},
+	{"replyId":"6",
+	"userId":"8_1",
+	"messageId":"1",
+	"ForUalais":"sss",
+	"ForUserId":"9_1",
+	"AtUserId":null,
+	"AtUserName":null,
+	"dependReplyId":null,
+	"replyContent":"是多少多少度是多少",
+	"replyDateTime":"2015-12-11 10:45:09",
+	"childrenReply":[]
+	},
+	{"replyId":"7",
+	"userId":"8_1",
+	"messageId":"1",
+	"ForUalais":"sss",
+	"ForUserId":"9_1",
+	"AtUserId":null,
+	"AtUserName":null,
+	"dependReplyId":null,
+	"replyContent":"是多少多少度是多少",
+	"replyDateTime":"2015-12-11 10:45:32",
+	"childrenReply":[]
+	},
+	{"replyId":"8",
+	"userId":"8_1",
+	"messageId":"1",
+	"ForUalais":"sss",
+	"ForUserId":"9_1",
+	"AtUserId":null,
+	"AtUserName":null,
+	"dependReplyId":null,
+	"replyContent":"是多少多少度是多少",
+	"replyDateTime":"2015-12-11 11:00:39",
+	"childrenReply":[]
+	},
+	{"replyId":"9",
+	"userId":"8_1",
+	"messageId":"1",
+	"ForUalais":"sss",
+	"ForUserId":"9_1",
+	"AtUserId":null,
+	"AtUserName":null,
+	"dependReplyId":null,
+	"replyContent":"是多少多少度是多少",
+	"replyDateTime":"2015-12-11 11:15:16",
+	"childrenReply":[]
+	}
+]

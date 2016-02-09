@@ -1,0 +1,35 @@
+
+define( 'DATABASE_TYPE' , 'mysql' );
+
+
+// For MySQL, MariaDB, MSSQL, Sybase, PostgreSQL, Oracle
+
+define( 'DATABASE_SERVER' , '127.0.0.1' );
+
+
+define( 'DATABASE_USER' ,'root');
+
+
+define( 'DATABASE_PWD' , '');
+
+
+// For SQLite
+//
+define( 'DATABASE_FILE' , '' );
+
+
+// Optional
+
+define( 'DATABASE_PORT' , '3306' );
+
+
+define( 'DATABASE_CHARSET' , 'utf8' );
+
+
+define( 'DATABASE_NAME' , 'hr' );
+
+
+
+define( 'DS' , DIRECTORY_SEPARATOR );
+//define( 'WROOT' , dirname( __FILE__ ) . DS  );
+define( 'WROOT' ,convertStringToLinuxOrWindow_Route($_SERVER['DOCUMENT_ROOT']).DS);

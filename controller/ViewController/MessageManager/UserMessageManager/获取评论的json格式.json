@@ -1,0 +1,38 @@
+[ /*评论数组*/
+	{"replyId":"1",
+	"userId":"发出这个帖子的用户id",
+	"messageId":"帖子id", /*需要 用户id 和帖子id 定位评论表*/
+	"ForUalais":"发出评论的用户昵称",
+	"ForUserId":"发出评论的用户id",
+	"AtUserId":"@的用户id",
+	"AtUserName":"@的用户名字",
+	"dependReplyId":"父节点序号",/*评论归类,区分是评论还是评论的回复*/
+	"replyContent":"回复内容",
+	"replyDateTime":"回复时间",
+	"childrenReply":[ /*评论数组*/
+					{"replyId":"2",
+					"userId":"222",/*发出帖子*/
+					"messageId":"11",
+					"ForUalais":"1但是",
+					"ForUserId":"12",
+					"AtUserId":"12",
+					"AtUserName":"点对点",
+					"dependReplyId":"1",
+					"replyContent":"",
+					"replyDateTime":null
+					}
+					{"replyId":"自增序号,用来标记位置,无显示用途",
+					"userId":"",
+					"messageId":"11",
+					"ForUalais":"1但是",
+					"ForUserId":"12",
+					"AtUserId":"12",
+					"AtUserName":"点对点",
+					"dependReplyId":"1",
+					"replyContent":"",
+					"replyDateTime":null
+					]
+	},
+	
+
+]

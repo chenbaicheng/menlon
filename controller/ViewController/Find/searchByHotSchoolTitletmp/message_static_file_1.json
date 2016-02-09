@@ -1,0 +1,20 @@
+{"1":{"1":{"schoolId":"2",
+			"schoolName":"东莞理工学院",
+			"id":"5",
+			"userId":"7_1",
+			"messageId":"6",
+			"Mcontent":"发表帖子的心情",
+			"Mhttp":"sssss.com",
+			"Commented_count":"0",
+			"Mfav":"0",
+			"extra":null
+			}
+	},
+ "2":{"1":{
+			"说明":"这是排名第二话题 --帖子1"
+			},
+	  "2":{
+			"说明":"这是排名第二话题 --帖子2"
+			}
+	}
+}

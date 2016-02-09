@@ -1,0 +1,13 @@
+﻿Model:
+tool(db.config.php 在这里被include) ---medoo ---medoo_returnPDO <返回一个medoo对象 参数在 db.config填写>----checkDatabase_BaseClass----object_****** 
+
+
+View :
+tool---JSON_Array_Control----View(基类方法  将array 转换为json 输出到view视图 )----View的子类
+
+View Controller:
+medoo_returnPDO   ---viewControllerBaseClass ----viewController***
+
+	------*************
+	viewModel   将model层数据放入viewModel 然后通过controller 传入view  ,另外一个作用 在传入之前 检查数据的正确性 
+  

@@ -1,0 +1,1 @@
+tool (db.config.php 数据库配置文件 )---medoo ---medoo_returnPDO <返回一个medoo对象 参数在 db.config填写>----baseClass ----object_******

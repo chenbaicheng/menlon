@@ -1,0 +1,3 @@
+ 注意  注册的viewModel 
+userRegisterViewModelFromDatabase 是线程处理
+userRegisterViewModelFromDatabasebackup 非线程处理 
